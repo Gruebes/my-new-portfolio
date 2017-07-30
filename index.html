@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tanner J Gruebele</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css" type="text/css" />
@@ -30,11 +32,10 @@
                     <span></span>
                     </span>
                     <div class="nav-right nav-menu">
-                        <a class="nav-item is-active">Home</a>
-                        <a class="nav-item">Examples</a>
-                        <a class="nav-item">Documentation</a>
+                        <a class="nav-item" href="https://twitter.com/TannerJames27" target="_blank">twitter</a>
+                        <a class="nav-item" href="https://www.linkedin.com/in/tanner-gruebele/" target="_blank">linkedin</a>
                         <span class="nav-item">
-                            <a class="button is-primary is-inverted">
+                            <a href="https://github.com/Gruebes" target="_blank" class="button is-primary is-inverted">
                             <span class="icon"><i class="fa fa-github"></i></span>
                         <span>github</span>
                         </a>
@@ -46,28 +47,117 @@
 
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    Title
-                </h1>
-                <h2 class="subtitle">
-                    Subtitle
-                </h2>
+            <div class="container">
+                <div class="columns is-3 is-offset-1">
+                    <img class="column is-4 is-offset-1" id="my-img" src="./assets/img/tanner.jpg" alt="">
+                    <div class="intro column is-6 is-offset-1">
+                        <h1 class="title  is-1">
+                            Tanner J Gruebele
+                        </h1>
+                        <h2 class="content is-medium">
+                            a fullstack developer with management experience and a keen eye for solving problems.
+                        </h2>
+                    </div>
+                </div>
+
             </div>
         </div>
 
     </section>
 
     <!-- Middle Hero  -->
-    <section class="hero is-light is-large">
+    <section class="hero is-light">
         <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                    Medium title
-                </h1>
-                <h2 class="subtitle">
-                    Medium subtitle
-                </h2>
+            <h1 class="title has-text-centered is-spaced is-large">Featured Projects</h1>
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://cdn.playbuzz.com/cdn/5978d046-3801-42ef-af12-56e051009aed/89ace4cb-2d74-4fd3-8778-16150b22c27e_560_420.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">The Triwizard Tournament</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                An exciting game to play. Choose your favorite wizard and do battle in The Triwizard Tournament!!
+                                <br>
+                                <small>See it on github</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/img/fullStackDisplay.png" href="https://murmuring-meadow-54169.herokuapp.com/" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">fullStackBurgers</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                <br>
+                                <small href="https://github.com/Gruebes/burger">See it on github</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="card" href="">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/img/southpark.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">South Park Trivia</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                <br>
+                                <small>See it on github</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="card" href="https://hockey4life63.github.io/cahGame/">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/img/codersDisplay.png" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Coders Against Humanity</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                A browser base cards agianst humanity game using firebase, javascript, html, css, & jquery
+                                <br>
+                                <small>See it on github</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -78,8 +168,8 @@
             <div class="container">
                 <div class="content has-text-centered">
                     <p>
-                        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+                        You can find <strong>Tanner</strong> on <a href="https://github.com/Gruebes" target="_blank">github. </a><a href="https://www.linkedin.com/in/tanner-gruebele/" target="_blank">linkedin</a>. And<a href="https://twitter.com/TannerJames27"
+                            target="_blank"> twitter</a>.
                     </p>
                     <p>
                         <a class="icon" href="https://github.com/jgthms/bulma">
